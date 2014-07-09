@@ -340,6 +340,14 @@ img.displayed {
 
 }
 
+@media (min-width: 1200px)
+{
+    #wrap {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* -------------------------------------
     Caption for index
 ----------------------------------------*/
