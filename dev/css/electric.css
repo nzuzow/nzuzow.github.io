@@ -350,6 +350,10 @@ img.displayed {
     border-radius: 0px 0px 10px 10px;
 }
 
+.thumbnail-contain {
+    background-color: #fdf6e3;
+}
+
 
 #contentwrap {
     width: 100%;
