@@ -328,6 +328,7 @@ img.displayed {
     {
         margin: 0px;
         max-width: 95%;
+        min-width: 350px;
         margin-left: auto;
         margin-right: auto;
 
