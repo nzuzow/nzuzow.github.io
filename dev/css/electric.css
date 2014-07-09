@@ -1,0 +1,418 @@
+/* Search icon by IcoMoon, made with http://icomoon.io/app/ */
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon/icomoon.eot');
+    src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.woff') format('woff'),
+    url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Basic style rule to outline and space block-level elements */
+[class*="span"] {
+    background: #eee;
+    margin-bottom: 10px;
+}
+
+/* -----------------------------------------------
+    Basic general settings
+-------------------------------------------------- */
+
+body {
+    padding-top: 70px;
+    height: 100%;
+    overflow-x:hidden;
+    background-color: #fdf6e3;
+    /*background-color: #EEE5DB;*/
+	/*background-color: #E6E3BB;*/
+    /*background-color: #EFEACC;*/
+    /*background-color: #CFC19E;*/
+    /*background-color: #D4C9AD;*/
+    /*background-color: #F1ECDF;*/
+}
+
+html {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    /*overflow-y: auto;*/
+    padding-bottom: 200px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+/*#container {
+    overflow-y: auto;
+    padding-bottom: 200px;
+    margin-right: 0px;
+    padding-right: 0px;
+}*/
+
+/* ----------------------------------
+    changing the style of well
+------------------------------------- */
+.well {
+    /*background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;*/
+	/*background-color: #C67170;*/
+    /*background-color: #eee8d5;*/
+    background-color: #2B4E72;
+}
+.well blockquote {
+    border-color: #2B4E72;
+	/*border-color: #eee8d5;*/
+  /*border-color: #e6e3bb;*/
+}
+
+/* ----------------------------------
+    Changing the style of jumbotron
+------------------------------------- */
+.jumbotron {
+    /*background-image:url('http://lorempixel.com/b/1000/500/')*/
+    background-color: #fdf6e3;
+    /*background-color: #EEE5DB;*/
+	/*background-color: #fff;*/
+}
+
+/* -----------------------------------------------
+    Changing the background color of the navbar
+-------------------------------------------------- */
+/*.navbar-default {
+  /*background-color: #f8f8f8;
+  border-color: #e7e7e7;*/
+  /*background-color: #eee8d5;
+  border-color: #eee8d5;
+}
+
+
+
+
+
+.navwidth {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navpadding {
+    padding-right: 25px;
+}*/
+
+/*media query fix for navbar*/
+/*@media (max-width: 1050px)
+{
+    .navbar-header
+    {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    	height: 150px;
+        overflow-y: auto;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  	display:block !important;
+    }
+}*/
+
+
+/*end of navbar fix*/
+
+/*#brand {
+    font-family: 'Lobster', cursive;
+    color: #2B4E72;
+    /*color: #063E6D;*/
+    /*color: #024E6E;*/
+    /*color: #002E48;*/
+/*}*/
+
+
+/*start of search bar*/
+.sb-search {
+    position: relative;
+    margin-top: 10px;
+    width: 0%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    overflow: hidden;
+
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+
+    -webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    z-index: 10;
+    padding: 20px 65px 20px 20px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+input[type="search"].sb-search-input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+    color: #efb480;
+}
+
+.sb-search-input:-moz-placeholder {
+    color: #efb480;
+}
+
+.sb-search-input::-moz-placeholder {
+    color: #efb480;
+}
+
+.sb-search-input:-ms-input-placeholder {
+    color: #efb480;
+}
+
+.sb-icon-search .sb-search-submit {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sb-search-submit {
+    background: #fff; /*IE needs this*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /*IE 8*/
+    filter: alpha(opacity=0); /*IE 7*/
+    opacity: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: -1;
+}
+
+.sb-icon-search {
+    color: #fff;
+    background: #e67e22;
+    z-index: 90;
+    font-size: 22px;
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+    content: "\e000";
+}
+
+/*Open state*/
+.sb-search.sb-search-open,
+.no-js .sb-search {
+    width: 100%;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+    background: #da6d0d;
+    color: #fff;
+    z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+    z-index: 90;
+}
+
+/*end of search bar*/
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    /*min-width: 300px;
+    min-height: 200px;*/
+}
+
+/* ----------------------------------------
+    front page body content
+------------------------------------------- */
+.media {
+    width: 100%;
+}
+
+.media-image {
+    width: 85%;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media-body {
+    width: 85%;
+    min-width: 350px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2B4E72;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.media-heading {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fdf6e3;
+}
+
+/* -----------------------------------
+    media query for main content
+-------------------------------------- */
+@media (max-width: 480px)
+{
+    img.displayed
+    {
+        margin: 0px;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .jumbotron {
+        padding: 0px;
+    }
+
+}
+
+
+
+#contentwrap {
+    width: 100%;
+}
+
+#sidebar {
+    background: #fff;
+}
+
+/*Testimonial page*/
+.testcontent {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.testname {
+    font-family: 'Lato', sans-serif;
+    color: #fdf6e3;
+
+}
+.testtext {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    text-align: center;
+    color: #fdf6e3;
+}
+/*.testtext2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 18px;
+    text-align: center;
+}*/
+.testbreak {
+    border: none;
+    height: 2px;
+    color: #d3d3d3;
+    background-color: #d3d3d3;
+}
+
+/*End Testimonial page*/
+
+/*#footer {
+    position: relative;
+    margin-top -150px;
+    height: 150px;
+    clear: both;
+}
+
+.div1 {
+    height: 100%;
+    width: 50%;
+    float: left;
+    border-right: 2px solid grey;
+}
+
+.div2 {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}*/
+
+/*Opera Fix*/
+body:before {
+    content:"";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}

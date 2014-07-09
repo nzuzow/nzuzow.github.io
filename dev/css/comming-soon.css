@@ -1,0 +1,87 @@
+
+body {
+    /*background-image: url('http://www.auplod.com/u/aolupd34a3f.png');*/
+    background: #fdf6e3; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #fdf6e3 0%, #fefbf4 65%, #fffdf8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fdf6e3), color-stop(65%,#fefbf4), color-stop(100%,#fffdf8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #fdf6e3 0%,#fefbf4 65%,#fffdf8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #fdf6e3 0%,#fefbf4 65%,#fffdf8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #fdf6e3 0%,#fefbf4 65%,#fffdf8 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #fdf6e3 0%,#fefbf4 65%,#fffdf8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf6e3', endColorstr='#fffdf8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 0px;
+	margin: 0px;
+	-webkit-text-size-adjust: 100%;
+}
+
+.tb {
+    display: table;
+	height: 100%;
+	width: 100%;
+	/*text-align: center;*/
+}
+
+#wrap {
+    display: table-cell;
+	width: 100%;
+	height: 100%;
+	/*text-align: center;*/
+	vertical-align: middle;
+}
+
+#content-contain {
+    vertical-align: middle;
+	width: 100%;
+	height: 333px;
+	margin: 0 auto;
+}
+
+#left {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 50%;
+    float: left;
+    background-color: green;
+}
+
+#right {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 50%;
+    float: left;
+    background-color: purple;
+}
+
+.list {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    background-color: red;
+}
+.list > a {
+    text-decoration: none;
+}
+
+#brand {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #2B4E72;
+    float: right;
+    margin-right: 15px;
+}
+
+#email {
+
+}
+
+.facebook {
+    font-size: 32px;
+    color: #333;
+    display: inline;
+    padding-right: 5px;
+}
+.facebook:hover {
+    color: #3b5998;
+}

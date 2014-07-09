@@ -1,0 +1,111 @@
+
+/* -----------------------------------------------
+    Changing the background color of the navbar
+-------------------------------------------------- */
+.navbar-default {
+  /*background-color: #f8f8f8;
+  border-color: #e7e7e7;*/
+  background-color: #eee8d5;
+  border-color: #eee8d5;
+  border-bottom: 10px solid #4A0015;
+}
+
+
+.navwidth {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-default .navbar-nav > .navwidth > a:hover {
+    color: #777;
+    background-color: #2B4E72;
+}
+
+.navpadding {
+    padding-right: 25px;
+}
+
+
+/* -----------------------------------------------
+    media query fix for navbar
+-------------------------------------------------- */
+@media (max-width: 1050px)
+{
+    .navbar-header
+    {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        /*Change the background color of the button*/
+        background-color: #2B4E72;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        height: 150px;
+        overflow-y: auto;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+        /*changes the width of the background on dropdown*/
+        width: 70%;
+        /*Centers the background on the dropdown*/
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+    }
+    .navbar-default .navbar-nav > .navwidth > a:hover {
+        border-radius: 5px;
+    }
+    .navbar-default {
+        border-bottom: 10px solid #4A0015;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /**/
+        text-align: center;
+    }
+    .collapse.in{
+      display:block !important;
+    }
+}
+
+
+/*end of navbar fix*/
+
+#brand {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: #2B4E72;
+    /*color: #063E6D;*/
+    /*color: #024E6E;*/
+    /*color: #002E48;*/
+}
+
+.selected  {
+    background-color: #2B4E72;
+}
+
+.navbar-default .navbar-nav > .selected > a {
+    color: #fdf6e3;
+}
+.navbar-default .navbar-nav > .selected > a:hover {
+    color: #777;
+}
