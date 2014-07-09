@@ -22,12 +22,10 @@
 	    <script stc="js/classie.js" type="text/javascript"></script>-->
 
         <script>
-            function loadIncludes()
-            {
+            $(function(){
                 $("#includedHeader").load("includes/header.html");
                 $("#includedFooter").load("includes/footer.html");
-            }
-            //$(function(){$("#includedHeader").load("includes/header.html");});
+            });
 
             //$(function(){$("includedFooter").load("includes/footer.html");});
         </script>
@@ -38,7 +36,7 @@
 		      </style>
 	    <![endif]-->
     </head>
-    <body onload="loadIncludes()">
+    <body>
 	<div id="wrap">
         	<!--<div class="container-fluid" id="container">-->
 
