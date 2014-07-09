@@ -25,6 +25,9 @@
             $(function(){
                 $("#includedHeader").load("includes/header.html");
                 $("#includedFooter").load("includes/footer.html");
+
+                $('.selected').removeClass('selected').addClass('navwidth');
+                $('#home').removeClass('navwidth').addClass('selected');
             });
 
             //$(function(){$("includedFooter").load("includes/footer.html");});
