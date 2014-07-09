@@ -352,6 +352,7 @@ img.displayed {
 
 .thumbnail-contain {
     background-color: #fdf6e3;
+    border: none;
 }
 
 
