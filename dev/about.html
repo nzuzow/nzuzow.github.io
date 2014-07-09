@@ -112,7 +112,10 @@
 
     <div id="includedFooter"></div>
 
-    <script>$('#about').addClass( 'selected' );</script>
+    <script>
+        var content = $('#about').text;
+        alert(content);
+        $('#about').addClass( 'selected' );</script>
 
     <!--<?php include 'includes/footer.php'; ?>-->
 
