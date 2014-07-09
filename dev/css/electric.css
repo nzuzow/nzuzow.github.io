@@ -348,12 +348,18 @@ img.displayed {
     margin-right: auto;
     background-color: #2B4E72;
     border-radius: 0px 0px 10px 10px;
+    text-align: center;
 }
 
 .thumbnail-contain {
     background-color: #fdf6e3;
     border: none;
 }
+
+.caption-heading {
+    color: #fdf6e3;
+}
+
 
 
 #contentwrap {
