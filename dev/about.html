@@ -26,6 +26,16 @@
                 #wrap {display:table;height:100%}
             </style>
         <![endif]-->
+
+        <script>
+            $(function(){
+                $("#includedHeader").load("includes/header.html");
+                $("#includedFooter").load("includes/footer.html");
+
+                $('.selected').removeClass('selected').addClass('navwidth');
+                $('#about').removeClass('navwidth').addClass('selected');
+            });
+        </script>
     </head>
     <body>
     <div id="wrap">
