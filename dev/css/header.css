@@ -17,7 +17,6 @@
   position: relative;
   /*background: ;  /* Match the background */
   border-bottom: 15px solid #4A0015;
-  bottom: 0;
   width: 9999px;   /* some huge width */
 }
 .navbar-default:before {
