@@ -6,10 +6,28 @@
     position: relative;
     margin-top -200px;
     width: 100%;
+    max-width: 1200px;
     height: 200px;
     clear: both;
     border-top: 15px solid #4A0015;/*#2B4E72;*/
 }
+
+#f_container:before, #f_container:after {
+  content: "";
+  position: absolute;
+  /*background: ;  /* Match the background */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* some huge width */
+}
+#f_container:before {
+  right: 100%;
+}
+#f_container:after {
+  left: 100%;
+}
+
+
 
 #f_header {
     width: 85%;
