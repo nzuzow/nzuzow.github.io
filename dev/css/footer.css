@@ -14,6 +14,8 @@
 #f_wrap {
     max-width: 1200px;
     clear: both;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #f_header {
@@ -22,6 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
+    clear: both;
 }
 
 #fh_left {
