@@ -11,13 +11,6 @@
     border-top: 20px solid #4A0015;/*#2B4E72;*/
 }
 
-#f_wrap {
-    max-width: 1200px;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #f_header {
     width: 85%;
     height: 25%;
@@ -131,7 +124,5 @@
 ------------------------------------- */
 @media (min-width: 1200px;)
 {
-    #f_wrap {
-        margin: 0 auto;
-    }
+    
 }
