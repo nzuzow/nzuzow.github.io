@@ -144,5 +144,8 @@
 ------------------------------------- */
 @media (min-width: 1200px;)
 {
-
+    #f_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
