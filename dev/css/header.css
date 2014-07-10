@@ -25,6 +25,10 @@
     padding-right: 25px;
 }
 
+#nav_wrap {
+    width: 100%;
+    max-width: 1300px;
+}
 
 
 
