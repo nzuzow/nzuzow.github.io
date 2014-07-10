@@ -391,7 +391,7 @@ img.displayed {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .testname {
