@@ -16,6 +16,7 @@
   content: "";
   position: absolute;
   /*background: ;  /* Match the background */
+  border-top: 15px solid #4A0015;
   top: 0;
   bottom: 0;
   width: 9999px;   /* some huge width */
