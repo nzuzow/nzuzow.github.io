@@ -28,11 +28,12 @@
 
         <script>
             $(function(){
-                $("#includedHeader").load("includes/header.html");
+                $("#includedHeader").load("includes/header.html", function(){
+                    $(".selected").removeClass( "selected" );
+                    $("#testimonial").addClass( "selected" );
+                });
                 $("#includedFooter").load("includes/footer.html");
 
-                //$(".selected").removeClass( "selected" );
-                //$("#about").addClass( "selected" );
             });
         </script>
 

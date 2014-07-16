@@ -29,11 +29,18 @@
 
         <script>
             $(function(){
-                $("#includedHeader").load("includes/header.html");
+                $("#includedHeader").load("includes/header.html", function(){
+                    /*$('#about').addClass("selected");
+                    $('#home').addClass("navwidth");
+                    $('#privacy').addClass("navwidth");
+                    $('#contact').addClass("navwidth");
+                    $('#testimonial').addClass("navwidth");
+                    $('#coupon').addClass("navwidth");*/
+                    $(".selected").removeClass( "selected" );
+                    $("#about").addClass( "selected" );
+                });
                 $("#includedFooter").load("includes/footer.html");
 
-                //$(".selected").removeClass( "selected" );
-                //$("#about").addClass( "selected" );
             });
         </script>
     </head>
