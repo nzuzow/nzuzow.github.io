@@ -33,6 +33,9 @@
     margin-right: auto;
 }
 
+.navbar-default .navbar-toggle:hover {
+    background-color: #4A0015;
+}
 
 
 /* -----------------------------------------------

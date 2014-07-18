@@ -144,7 +144,20 @@
 /* ----------------------------------
     Media Queries for footer
 ------------------------------------- */
-@media (min-width: 1200px;)
+@media (max-width: 1050px)
 {
+    #f_container {
+        border-top: 10px solid #4A0015;
+    }
+}
 
+@media (max-width: 768px)
+{
+    #fh_left {
+        width: 75%;
+    }
+
+    #fh_right {
+        width: 25%;
+    }
 }

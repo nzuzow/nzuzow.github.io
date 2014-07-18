@@ -45,6 +45,10 @@ html {
     padding-bottom: 200px;
     margin-right: 0px;
     padding-right: 0px;
+    -webkit-transition: margin-top .4s ease;
+    -moz-transition: margin-top .4s ease;
+    -o-transition: margin-top .4s ease;
+    transition: margin-top .4s ease;
 }
 
 /*#container {
@@ -376,11 +380,42 @@ img.displayed {
     width: 100%;
 }
 
+/*-----------------------------------------
+    Style for About page
+-------------------------------------------*/
 #sidebar {
-    background: #fff;
+    /*background: #fff;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#sidebar > ul {
+    list-style-type: none;
+    font-size: 16px;
+    padding-left: 0px;
+}
+#sidebar > ul > li {
+    text-align: center;
+}
+#sidebar > ul > li > a {
+    color: #fdf6e3;
+}
+#sidebar > ul > li > a:hover {
+    text-decoration: none;
+    color: #d2b48c;/*#CFC19E;*/
+    border-bottom: 1px solid #4A0015;
 }
 
-/*Testimonial page*/
+.content-header > a {
+    color: #333;/*#2B4E72;*/
+}
+.content-header > a:hover {
+    text-decoration: none;
+}
+
+/*-----------------------------------------
+    Style for Testimonial page
+-------------------------------------------*/
 .testcontent {
     width: 70%;
     margin-left: auto;
