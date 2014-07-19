@@ -124,6 +124,21 @@
     color: #333;
 }
 
+.f_text {
+    padding-left: 15px;
+    color: #777;
+}
+.f_text > a {
+    color: #777;
+}
+.f_text > a:hover {
+    color: #2B4E72;
+}
+
+#f_name {
+    font-size: 18px;
+}
+
 .f_list {
     margin: 0px;
     padding-left: 15px;

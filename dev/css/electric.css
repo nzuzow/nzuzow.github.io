@@ -373,6 +373,10 @@ img.displayed {
 .caption-heading {
     color: #fdf6e3;
 }
+.caption-heading:hover {
+    color: #dbc3a3;/*#d2b48c;*/
+    cursor: pointer;
+}
 
 
 
