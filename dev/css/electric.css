@@ -321,6 +321,11 @@ img.displayed {
     margin-right: auto;
 }
 
+#contact-name {
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
 /*-----------------------------------------
     Style for Testimonial page
 -------------------------------------------*/
