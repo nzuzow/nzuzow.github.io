@@ -321,6 +321,12 @@ img.displayed {
     margin-right: auto;
 }
 
+#contact-name-contain {
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #contact-name {
     border: none;
     border-bottom: 1px solid #999;
