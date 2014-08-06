@@ -321,17 +321,63 @@ img.displayed {
     margin-right: auto;
 }
 
-#contact-name-contain {
-    width: 125px;
+#contact-section-contain {
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #contact-name {
     border: none;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #777;
+    width: 175px;
+    background-color: #fdf6e3;
+}
+#contact-name:focus {
+    background-color: #f6eed9;
+    border-radius: 4px;
 }
 
+#contact-email {
+    border: none;
+    border-bottom: 1px solid #777;
+    width: 225px;
+    margin-top: 3px;
+    background-color: #fdf6e3;
+}
+#contact-email:focus {
+    background-color: #f6eed9;
+    border-radius: 4px;
+}
+
+#contact-message-contain {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+#contact-message {
+    border: 1px solid #777;
+    min-width: 350px;
+    min-height: 100px;
+    background-color: #fdf6e3;
+    border-radius: 4px;
+}
+#contact-message:focus {
+    background-color: #f6eed9;
+}
+
+#contact-submit-contain {
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#contact-submit {
+    width: 65px;
+}
 /*-----------------------------------------
     Style for Testimonial page
 -------------------------------------------*/

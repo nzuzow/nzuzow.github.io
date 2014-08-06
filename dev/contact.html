@@ -51,10 +51,16 @@
                     as soon as possible.</p>
                 </div>
                 <form name="contact-form" id="contact-form" action="http://electric-backend.herokuapp.com" method="POST">
-                    <div id="contact-name-contain">
+                    <div id="contact-section-contain">
                         <input type="text" name="contact-name" id="contact-name" placeholder="Name"/>
+                        <input type="text" name="contact-email" id="contact-email" placeholder="Email Address"/>
                     </div>
-                    <input type="submit" value="Send"/>
+                    <div id="contact-message-contain">
+                        <textarea id="contact-message" name="contact-message" placeholder="Message"></textarea>
+                    </div>
+                    <div id="contact-submit-contain">
+                        <input type="submit" id="contact-submit" value="Send"/>
+                    </div>
                 </form>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
