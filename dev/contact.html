@@ -34,6 +34,9 @@
                 $('#contact').addClass('selected');
             });
             $("#includedFooter").load("includes/footer.html");
+
+            //basicReset is a function in script.js
+            basicReset();
         });
     </script>
 </head>
@@ -54,6 +57,12 @@
                     <div id="contact-section-contain">
                         <input type="text" name="contact-name" id="contact-name" placeholder="Name"/>
                         <input type="text" name="contact-email" id="contact-email" placeholder="Email Address"/>
+                        <br/>
+                        <input type="text" name="contact-type" id="contact-type" placeholder="Type of Business:" readonly/>
+                        <br/>
+                        <input type="radio" name="contact-type-radio" value="residential" checked="true"/> Residential
+                        <input type="radio" name="contact-type-radio" value="commercial"/> Commercial
+                        <input type="radio" name="contact-type-radio" value="industrial"/> Industrial
                     </div>
                     <div id="contact-message-contain">
                         <textarea id="contact-message" name="contact-message" placeholder="Message"></textarea>

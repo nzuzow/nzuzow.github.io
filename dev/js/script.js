@@ -14,3 +14,9 @@ function moveContent()
         document.getElementById('clicked').value = "yes";
     }
 }
+
+//used on the contact-us page to reset the radio buttons
+function basicReset()
+{
+    document.getElementById("contact-form").reset();
+}

@@ -341,7 +341,7 @@ img.displayed {
 #contact-email {
     border: none;
     border-bottom: 1px solid #777;
-    width: 225px;
+    width: 230px;
     margin-top: 3px;
     background-color: #fdf6e3;
 }
@@ -349,6 +349,18 @@ img.displayed {
     background-color: #f6eed9;
     border-radius: 4px;
 }
+
+#contact-type {
+    border: none;
+    width: 130px;
+    margin-top: 3px;
+    background-color: #fdf6e3;
+    cursor: default;
+}
+/*#contact-type:focus {
+    background-color: #f6eed9;
+    border-radius: 4px;
+}*/
 
 #contact-message-contain {
     width: 400px;
