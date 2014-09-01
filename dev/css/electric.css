@@ -392,13 +392,52 @@ img.displayed {
 }
 
 .contact-logo {
-    width: 75%;
+    width: 215px;
     margin-left: auto;
     margin-right: auto;
 }
 .contact-logo > h2 {
     font-family: 'Lobster', cursive;
     font-size: 24px;
+    color: #2B4E72;
+}
+
+.sidebar-name {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar-name > h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.sidebar-phone {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar-phone > h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.sidebar-email {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar-email > h3 {
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.sidebar-email > h3 > a {
+    color: black;
+}
+.sidebar-email > h3 > a:hover {
     color: #2B4E72;
 }
 /*-----------------------------------------
