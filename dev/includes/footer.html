@@ -44,11 +44,43 @@
         <div class="col-lg-4 col-sm-4 col-4 f_sub_content">
             <h3 class="f_subheader">Testimonials</h3>
 
-            <div class="slider">
+            <!--<div class="slider">
               <div class="just_text">This is testimonial 1</div>
               <div class="just_text">This is the second testimonial</div>
               <div class="just_text">3 of 3 testimonials</div>
             </div>
+            -->
+
+            <div id="test_carousel" class=" carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#test_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#test_carousel" data-slide-to="1"></li>
+                <li data-target="#test_carousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <p>This is testimonial 1</p>
+                </div>
+                <div class="item">
+                  <p>2nd testimonial</p>
+                </div>
+                <div class="item">
+                  <p>This is the third testimonial</p>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#test_carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#test_carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+
             <!-- Trying to create a carasel to loop through the testimonials-->
             <!--<div id="slider" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
