@@ -176,10 +176,15 @@
 }*/
 .carousel-control {
   color: #2B4E72;
+  opacity: 1;
 }
 .carousel-control.left,
 .carousel-control.right {
   background-image: none !important;
+}
+.carousel-control >.glyphicon-chevron-left,
+.carousel-control >.glyphicon-chevron-right {
+  color:#4A0015;
 }
 .carousel-indicators {
     bottom: 0px;
