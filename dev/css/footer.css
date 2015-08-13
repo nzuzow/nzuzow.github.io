@@ -175,7 +175,7 @@
     opacity: 0.1;
 }*/
 .carousel-control {
-  color: #2B4E72;
+  /*color: #2B4E72;*/
   opacity: 1;
 }
 .carousel-control.left,
@@ -184,7 +184,8 @@
 }
 .carousel-control >.glyphicon-chevron-left,
 .carousel-control >.glyphicon-chevron-right {
-  color:#4A0015;
+  /*color:#4A0015;*/
+  color: #2B4E72;
 }
 .carousel-indicators {
     bottom: 0px;
