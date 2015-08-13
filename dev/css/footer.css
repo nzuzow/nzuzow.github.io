@@ -174,7 +174,10 @@
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
     opacity: 0.1;
 }*/
-
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+}
 .carousel-indicators {
     bottom: 0px;
 }
