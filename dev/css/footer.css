@@ -184,8 +184,7 @@
 }
 .carousel-control >.glyphicon-chevron-left,
 .carousel-control >.glyphicon-chevron-right {
-  /*color:#4A0015;*/
-  color: #2B4E72;
+  color:#4A0015;
 }
 .carousel-indicators {
     bottom: 0px;
